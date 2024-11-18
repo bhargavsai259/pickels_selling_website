@@ -13,10 +13,20 @@ This is a fully functional e-commerce website built with React, Node.js, and Mon
 ## Demo Videos
 
 - **Dark/Light Mode Toggle**:  
-  Watch the [video demo](https://github.com/user-attachments/assets/41b41198-be13-4ca0-be14-4aa3ce6874c1) showing the dark/light mode feature.
-  
+  Watch the video demo showing the dark/light mode feature:
+  <br>
+  <video width="640" height="360" controls>
+    <source src="https://github.com/user-attachments/assets/41b41198-be13-4ca0-be14-4aa3ce6874c1" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
 - **Pickle Quantity and Order Submission**:  
-  Watch the [video demo](https://github.com/user-attachments/assets/46a6f717-caf9-4a04-9b9f-0d41c22e314e) to see the pickle quantity selection and order submission process.
+  Watch the video demo to see the pickle quantity selection and order submission process:
+  <br>
+  <video width="640" height="360" controls>
+    <source src="https://github.com/user-attachments/assets/46a6f717-caf9-4a04-9b9f-0d41c22e314e" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
 ## Screenshots
 
