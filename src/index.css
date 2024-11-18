@@ -1,0 +1,65 @@
+:root[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #444444;
+  --scrolled-bg-color: #f8f9fa;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #15202b;
+  --text-color: #ffffff;
+  --heading-color: #dddddd;
+  --scrolled-bg-color: #204f78;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 0 30px;
+}
+
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--bg-color);
+}
+
+.navbar.scrolled {
+  background-color: var(--scrolled-bg-color);
+  box-shadow: 0 2px 4px #1d2a35; /* Subtle shadow */
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+#themeswitch {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+body {
+  padding-top: 70px; /* Prevent content overlap due to fixed navbar */
+}
+
+#store-button {
+  font-family: "Georgia", serif; /* Change font family */
+  font-size: 2rem; /* Adjust font size */
+  color: #ff6347; /* Tomato color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  font-weight: bold; /* Make the text bold */
+  letter-spacing: 2px; /* Add some letter spacing */
+}
