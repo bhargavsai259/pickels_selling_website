@@ -1,6 +1,60 @@
-# Getting Started with Create React App
+# Pickles E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a fully functional e-commerce website built with React, Node.js, and MongoDB to sell pickles online. The website allows users to explore different types of pickles, add them to the cart, and complete their orders. It also features a dark/light mode toggle and dynamic price updates based on quantity.
+
+## Features
+
+- **Dark/Light Mode Toggle**: Users can switch between dark and light mode for a customized viewing experience.
+- **Pickle Catalog**: Display different types of pickles with name, quantity, and price.
+- **Dynamic Price Calculation**: Price updates dynamically based on the selected quantity of pickles.
+- **Add to Cart**: Users can add pickles to their cart, and a summary of the order is displayed.
+- **Order Submission**: Users can submit their order after adding pickles to the cart.
+
+## Demo Videos
+
+- **Dark/Light Mode Toggle**:  
+  Watch the [video demo](https://github.com/user-attachments/assets/41b41198-be13-4ca0-be14-4aa3ce6874c1) showing the dark/light mode feature.
+  
+- **Pickle Quantity and Order Submission**:  
+  Watch the [video demo](https://github.com/user-attachments/assets/46a6f717-caf9-4a04-9b9f-0d41c22e314e) to see the pickle quantity selection and order submission process.
+
+## Screenshots
+
+- ![Screenshot 1](https://github.com/user-attachments/assets/614b680a-1826-4c25-9467-ca76a62e34c1)
+- ![Screenshot 2](https://github.com/user-attachments/assets/f7ac80fb-5c16-4b2a-956e-81b0a6fe5555)
+- ![Screenshot 3](https://github.com/user-attachments/assets/e5eb1824-ad63-4647-a7b2-9206155e15aa)
+- ![Screenshot 4](https://github.com/user-attachments/assets/eadefe70-4b53-4ab4-ab23-cc696e29ffcb)
+- ![Screenshot 5](https://github.com/user-attachments/assets/c6a2adc8-2528-46fd-9ba3-5fbcb365c958)
+
+## Installation
+
+To get started with the project, follow the instructions below:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/) (Local or Cloud instance)
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-repository/pickles-website.git
+    cd pickles-website
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm start
+    ```
+    The app will be available at [http://localhost:3000](http://localhost:3000).
+
+4. If you're using MongoDB, make sure your database is set up and connected.
 
 ## Available Scripts
 
@@ -27,8 +81,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -45,26 +97,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project can be deployed using platforms like [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or your preferred cloud service.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
